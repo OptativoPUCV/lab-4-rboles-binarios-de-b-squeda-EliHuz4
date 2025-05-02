@@ -8,3 +8,14 @@ Fri, May  2, 2025  5:21:19 PM:
  tests:  1|8
 total_score: 0/70
 8937dee
+Fri, May  2, 2025  5:23:01 PM: 
+ treemap.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'createTreeMap':
+treemap.c:46:12: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+     return Map;
+            ^~~
+cc1.exe: all warnings being treated as errors
+827b641
