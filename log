@@ -19,3 +19,14 @@ treemap.c:46:12: error: return from incompatible pointer type [-Werror=incompati
             ^~~
 cc1.exe: all warnings being treated as errors
 827b641
+Fri, May  2, 2025  5:24:47 PM: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'createTreeMap':
+treemap.c:46:12: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+     return Map;
+            ^~~
+cc1.exe: all warnings being treated as errors
+9c3285c
