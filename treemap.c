@@ -176,7 +176,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
 }
 
 Pair * firstTreeMap(TreeMap * tree) {
-    while(tree->current->pair->key != NULL)
+    while(tree->current->left != NULL)
     {
         tree->current = tree->current->left;
     }
